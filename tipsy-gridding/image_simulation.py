@@ -2,10 +2,8 @@ import argparse
 import sys
 import warnings
 from glob import glob
-import pdb
 
 import pynbody
-from pynbody.analysis import angmom
 import matplotlib.pyplot as plt
 import numpy as np
 

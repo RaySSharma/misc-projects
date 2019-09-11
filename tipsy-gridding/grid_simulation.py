@@ -2,7 +2,6 @@ import argparse
 import warnings
 import itertools
 from glob import glob
-import pdb
 
 import pynbody
 import h5py
@@ -31,7 +30,6 @@ class Grid:
         self.coords = self._coords()
         self.index = self._indices()
 
-        pdb.set_trace()
         self.cell_num_grid, self.grid = self.enumerate_grid()
         self.coords_grid, self.grid_edges = self.coords_to_grid()
         self.coords_cells = self.calc_cell_numbers(self.coords_grid)
