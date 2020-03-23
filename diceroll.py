@@ -20,4 +20,3 @@ ax.text(0.1, 0.85, s=str(num)+' dice', fontsize=14, color='k', transform=ax.tran
 ax.text(0.1, 0.8, s=str(rolls)+' rolls', fontsize=14, color='k', transform=ax.transAxes)
 
 plt.tight_layout()
-plt.show()
