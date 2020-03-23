@@ -33,4 +33,3 @@ draws = [Waitlist().model() for i in range(10000)]
 plt.hist(draws, bins=bins, histtype='step', density=True)
 plt.xlabel('Number of Days on Waitlist', fontsize=26)
 plt.tight_layout()
-plt.show()
